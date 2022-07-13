@@ -28,4 +28,8 @@ Fixed Margin Problem (thanks to Davide Voza)
 
 Cleaned CSS code by removing unnecessary styling
 
+## V 1.0
+
+Positioned graphical elements  
+Added some font awesome elements
 
