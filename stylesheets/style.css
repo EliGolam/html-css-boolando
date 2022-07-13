@@ -2,7 +2,7 @@
 /* These are some generic design choices for colour schemes, fonts and backgrounds */
 :root {
     /* Website Color Scheme */
-    --clr-primary: rgba(87, 242, 178, 1);
+    --clr-primary: rgba(255, 105, 0, 1);
     --clr-secondary: rgba(250, 174, 95, 1);
 
     --clr-neutral-white: rgba(246, 242, 233, 1);
@@ -20,14 +20,41 @@
     --fontsize-large: 2rem;
     --fontsize-title: 3rem;
 
-    --gap: 1rem;
-    --flow-spacer: 1em;
+    --content-width: 900px;
+
+
+    --general-gap: 1rem;
 }
 
 /* COMPOSITION: Macrolevel design choises that defines the skeleton of the webpage and basic composition within components */
 /* Page Layout choices */
+.hidden-content { display: none; }
+
+.content-width { max-width: var(--content-width); margin: 0 auto;}
+
+.flex { display: flex; }
+
+.flex-column { flex-direction: column; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+/* BODY defaults */
+body {
+    font-family: var(--fontfamily-primary);
+    font-weight: var(--fontweight-normal);
+    font-size: var(--fontsize-normal);
+}
 
 /* Component Layout choices */
+.anchored-header-top {
+    position: fixed;
+        top: 0;
+        z-index: 5;
+
+    width: 100vw;
+    padding: var(--general-gap);
+}
+
 
 /* UTILITIES: One job, done well. It performs one logical job: formatting, design, shape, font and element colours  */
 /* Color schemes divided into scalable Design Tokens: allows to apply a specific set of colours without repetition */
@@ -44,6 +71,23 @@
 .text-colour-light {color: var(--clr-neutral-white);}
 
 /* BLOCKS: component specific rules */
+.anchored-header-top > .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigate-sections {
+    justify-content: space-between;
+    column-gap: var(--general-gap);
+}
+
+.boolean-logo { max-width: 6rem; }
+
+
+/* MAIN */
+.card {
+    position: relative;
+}
 
 /* EXCEPTIONS: variations to a block */
 
