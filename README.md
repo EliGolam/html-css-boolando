@@ -33,3 +33,7 @@ Cleaned CSS code by removing unnecessary styling
 Positioned graphical elements  
 Added some font awesome elements
 
+## V 1.1
+
+Added Hover elements to the page
+
