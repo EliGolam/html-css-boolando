@@ -37,3 +37,10 @@ Added some font awesome elements
 
 Added Hover elements to the page
 
+## V 2.0
+
+Refined page layout and design
+
+### Known Issues
+
+Minor graphical adjustments needed
