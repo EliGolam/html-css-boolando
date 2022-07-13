@@ -11,3 +11,11 @@ Added HTML and CSS reset files
 Added assets  
 Added HTML generic elements  
 Added comments to HTML
+
+## V 0.3
+
+Cleaned HTML code and added Footer
+
+### Known Issues: 
+
+Margin problem with the card container

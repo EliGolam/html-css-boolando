@@ -28,7 +28,7 @@ Logical choice to make things look more organized, but they are not fundamental 
 <body>
 
     <!-- HEADER: anchored to the top of the page. -->
-    <header class="anchored-header-top   background-primary">
+    <header class="anchored-header-top   background-primary  text-colour-light">
         <!-- Title hidden for accessibility -->
         <h1 class="hidden-content">Boolean</h1>
 
@@ -62,8 +62,8 @@ Logical choice to make things look more organized, but they are not fundamental 
         <!-- H2 hidden for accessibiliy -->
         <h2 class="hidden-content">Items on display</h2>
 
-        <!-- Contains 6 flex-items -->
-        <div class="flex flex-wrap   content-width">
+        <!-- Main-container Contains 6 flex-items -->
+        <div class="main-container   flex flex-wrap   content-width">
             <!-- Card 1 -->
             <div class="card   flex flex-column">
                 <div class="card-image">
@@ -107,7 +107,7 @@ Logical choice to make things look more organized, but they are not fundamental 
                 </section>
 
                 <!-- Extra item details with position: absolute to position them on the image -->
-                <div class="item-inf   flexo">
+                <div class="item-inf   flex">
                    <p class="item-discount">-50%</p>
                    <p class="item-tag">Sostenibilità</p>
                 </div>
@@ -221,8 +221,38 @@ Logical choice to make things look more organized, but they are not fundamental 
             <!-- end Card 6 -->
 
         </div>
-        <!-- end Flex-container -->
+        <!-- end Main-container -->
     </main>
+    <!-- end MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="background-dark  text-colour-light">
+        <h2 class="hidden-content">Information of end page</h2>
+
+        <div class="footer-container   flex content-width">
+            <nav class="company-details">
+                <h3 class="company-name">Boolando s.r.l.</h3>
+                <div class="company-details__link">
+                    <ul class="navigate-sections   flex">
+                        <li><a href="#">Informazioni legali</a></li>
+                        <li><a href="#">Informativa sulla privacy</a></li>
+                        <li><a href="#">Diritto di recesso</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav class="navigate-sections   flex">
+                <!-- H2 hidden for accessibiliy -->
+                <h3>Trovaci anche su</h3>
+                <div class="social-link   icon">O</div>
+                <div class="social-link   icon">O</div>
+                <div class="social-link   icon">O</div>
+                <div class="social-link   icon">O</div>
+                <div class="social-link   icon">O</div>
+            </nav>
+        </div>
+    </footer>
+    <!-- end FOOTER -->
 </body>
 
 </html>

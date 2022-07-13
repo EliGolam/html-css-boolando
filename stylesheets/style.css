@@ -55,6 +55,8 @@ body {
     padding: var(--general-gap);
 }
 
+main { padding: var(--general-gap); margin: 6rem auto;}
+
 
 /* UTILITIES: One job, done well. It performs one logical job: formatting, design, shape, font and element colours  */
 /* Color schemes divided into scalable Design Tokens: allows to apply a specific set of colours without repetition */
@@ -85,8 +87,16 @@ body {
 
 
 /* MAIN */
+.main-container {
+    gap: var(--general-gap);
+
+    justify-content: space-between;
+}
+
 .card {
     position: relative;
+
+    width: calc(100% / 3 - var(--general-gap));
 }
 
 /* EXCEPTIONS: variations to a block */
