@@ -45,6 +45,10 @@ body {
     font-size: var(--fontsize-normal);
 }
 
+body > * {
+    padding: var(--general-gap);
+}
+
 /* Component Layout choices */
 .anchored-header-top {
     position: fixed;
@@ -52,11 +56,10 @@ body {
         z-index: 5;
 
     width: 100%;
-    padding: var(--general-gap);
+    
 }
 
-main { padding: var(--general-gap); margin: 6rem auto;}
-
+main { margin: 6rem auto; }
 
 /* UTILITIES: One job, done well. It performs one logical job: formatting, design, shape, font and element colours  */
 /* Color schemes divided into scalable Design Tokens: allows to apply a specific set of colours without repetition */
@@ -99,6 +102,9 @@ main { padding: var(--general-gap); margin: 6rem auto;}
     width: calc(100% / 3 - var(--general-gap));
 }
 
+.footer-container {
+    justify-content: space-between;
+}
 /* EXCEPTIONS: variations to a block */
 
 /* MEDIA QUERIES */

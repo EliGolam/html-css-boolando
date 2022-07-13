@@ -24,4 +24,8 @@ Margin problem with the card container
 
 Fixed Margin Problem (thanks to Davide Voza)
 
+## V 0.5
+
+Cleaned CSS code by removing unnecessary styling
+
 
