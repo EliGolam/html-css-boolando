@@ -19,3 +19,9 @@ Cleaned HTML code and added Footer
 ### Known Issues: 
 
 Margin problem with the card container
+
+## V 0.4
+
+Fixed Margin Problem (thanks to Davide Voza)
+
+
