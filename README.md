@@ -52,3 +52,11 @@ Added overlay with position
 ### Known Issues
 
 Page doesn't adapt well to smaller screens
+
+## V 2.2
+
+Added simple transitions
+
+### Known Issues
+
+Page doesn't adapt well to smaller screens
