@@ -44,3 +44,19 @@ Refined page layout and design
 ### Known Issues
 
 Minor graphical adjustments needed
+
+## V 2.1
+
+Added overlay with position
+
+### Known Issues
+
+Page doesn't adapt well to smaller screens
+
+## V 2.2
+
+Added simple transitions
+
+### Known Issues
+
+Page doesn't adapt well to smaller screens
